@@ -1,8 +1,8 @@
-import React from "react";
+"use client";
 
-export default function Page() {
+export default function DriversPage() {
   return (
-    <section className="bg-transparent min-h-screen mt-[-50px] pt-[50px] px-12">
+    <section className="bg-transparent min-h-[calc(100vh-90px)] max-w-[1280px] mx-auto px-12 pt-[50px]">
       Here will be the drivers
     </section>
   );

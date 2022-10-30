@@ -11,12 +11,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={figtree.className}>
+    <html lang="en" className={exo.className}>
       <head>
         <title>Next.js</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className="w-full bg-[#fcfcfc] box-border">
+      <body className="w-full bg-[hsla(0,0%,100%,.33)] box-border antialiased overscroll-none">
         <Navbar />
         {children}
         <footer></footer>
