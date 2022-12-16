@@ -22,7 +22,7 @@ export default function DriversPage() {
   return isLoading ? (
     <LoadingSkeleton />
   ) : (
-    <section className="bg-transparent min-h-[calc(100vh-90px)] max-w-[1280px] mx-auto px-12 mt-[50px]">
+    <section className="bg-transparent min-h-[calc(100vh-90px)] max-w-[1280px] mx-auto px-12 mt-[100px]">
       {drivers.map((driver: any) => (
         <p key={driver.id}>{driver.name}</p>
       ))}
