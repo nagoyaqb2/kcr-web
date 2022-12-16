@@ -39,6 +39,7 @@ export default function Navbar() {
             }}
             className="w-5 h-5"
           >
+            {/* //TODO: Make the hamburger button animated, and prettier  */}
             <svg>
               {isNavOpen ? (
                 <g
