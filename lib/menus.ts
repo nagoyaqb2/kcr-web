@@ -5,6 +5,10 @@ type Item = {
 
 export const menus: Item[] = [
   {
+    name: "News",
+    slug: "news",
+  },
+  {
     name: "Drivers",
     slug: "drivers",
   },

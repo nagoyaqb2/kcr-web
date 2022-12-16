@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
   variants: {
     animation: ["motion-safe"],
   },
