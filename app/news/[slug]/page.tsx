@@ -7,14 +7,6 @@ import Image from "next/image";
 
 export const revalidate = 60;
 
-/* export async function generateStaticParams() {
-  const { data: posts } = await supabase.from("posts").select("slug");
-
-  return posts?.map(({ slug }) => ({
-    slug,
-  }));
-} */
-
 export default async function NewsDetailPage({
   params: { slug },
 }: {

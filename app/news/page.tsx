@@ -28,7 +28,7 @@ export default function NewsPage() {
   return isLoading ? (
     <LoadingSkeleton />
   ) : (
-    <section className="w-full mt-[50px] flex flex-col">
+    <section className="w-full mt-[100px] flex flex-col">
       {posts?.map((post: any) => (
         <Link
           href={`/news/${post.slug}`}
