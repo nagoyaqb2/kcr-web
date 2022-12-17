@@ -1,5 +1,3 @@
-# KoalaTy-Control Racing webpage
+# KoalaTy-Control Racing
 
-This is the code for the new KoalaTy-Control Racing webpage.
-
-It's in a very early stage.
+This is a test code for experimenting with the new Next 13 features.
